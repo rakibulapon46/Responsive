@@ -95,6 +95,7 @@ section{
 
 .img1{
     width: 40%;
+    align-items: flex-start;
 }
 
 .row{
