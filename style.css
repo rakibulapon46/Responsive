@@ -124,6 +124,7 @@ footer a{
     color: #0188ff;
 }
 
+/* Tablet & Mobile*/
 @media(max-width: 850px){
     .hero-text, .row, .row2{
         display: block;
