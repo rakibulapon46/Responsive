@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3125rem;
+    color: #222c2a;
+    line-height: 1.6;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1, h2{
+    font-family: 'Playfair Display', serif; 
+    font-weight: 900;
+    margin-top: 0;
+    line-height: 1;
+}
+
+section{
+    padding: 4rem 0;
+}
+
+.intro{
+    background-color: #F3EED9;
+    padding: 230px 0;
+    text-align: center;
+    color: #824936;
+}
+
+.container{
+    width: 85%;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.intro-text{
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #222c2a;
+    margin: 0 0 .25em;
+}
+
+.intro-title{
+    font-size: 3.75rem;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero{
+    padding: 4em 0.5em;
+}
+
+.hero-title{
+    color: #824936;
+    font-size: 36px;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+}
+
+.col-p{
+    width: 90%;
+}
+
+.text1{
+    width: 50%;
+}
+
+.text2{
+    width: 40%;
+}
+
+.p-text1{
+    color: #F3EED9;
+}
+
+.custom1{
+    background-color: #222c2a;
+    color: #fff;
+    padding: 4em 1em;
+}
+
+.img1{
+    width: 40%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom2{
+    background-color: #824936;
+    color: #fff;
+    padding: 4em 1em;
+}
+
+footer{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0.5em 0;
+}
+
+footer i{
+    color: red;
+}
+
+footer a{
+    color: #0188ff;
+}
+
+@media(max-width: 850px){
+    .hero-text, .row, .row2{
+        display: block;
+    }
+
+    .hero, .custom1, .custom2{
+        padding: 2em 0;
+    }
+
+    .img1{
+        width: 100%;
+    }
+
+    .hero-text, .text1, .text2, .intro-title{
+        width: 100%;
+    }
+
+    .intro{
+        padding: 2em 0;
+    }
+
+    .text2{
+        margin-top: 1.5em;
+    }
+}
+
+@media(max-width: 350px){
+
+    .intro-text{
+        font-size: 1rem;
+    }
+
+   .intro-title{
+    font-size: 2rem;
+   }
+}
