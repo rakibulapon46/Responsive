@@ -151,7 +151,7 @@ footer a{
     }
 }
 
-/* For below 350px device */
+
 @media(max-width: 350px){
 
     .intro-text{
